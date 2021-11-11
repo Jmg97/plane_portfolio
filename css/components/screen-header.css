@@ -12,6 +12,11 @@ margin-bottom: 15px;
     text-shadow: 6px 2px 2px rgb(0 0 0 / 20%)
 }
 
+.screen-header__title:hover{
+    color: rgba(0,0,0,0.5);
+    transform: scale(1.2);
+}
+
 .screen-header__icons span{
     margin-left: 25px;
     position: relative;

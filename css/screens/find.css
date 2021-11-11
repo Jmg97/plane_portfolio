@@ -96,6 +96,8 @@ position: absolute;
 bottom: 10px;
 right: 10px;
 font-size: 12px;
+will-change: transform;
+    animation: heartBeat 2s linear infinite;
 }
 .open-post__heart-count span {
     margin-left: 3px;
@@ -115,9 +117,4 @@ font-size: 12px;
      color:#fff;
      transform:none;
     }
-}
-
-.open-post__heart-count:hover i {
-    will-change: transform;
-    animation: heratBeat 2s linear infinite;
 }
