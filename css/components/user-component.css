@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 .user-component,
-.user-component__column:first-child{
+.user-component__column{
     display: flex;
     align-items: center;
 }
