@@ -30,9 +30,13 @@
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: none; background: transparent;
+
 }
+
+
 
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
@@ -47,6 +51,7 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 10px;
+  
 }
 
 #login-form a {
@@ -55,3 +60,5 @@
   color: inherit;
   font-size: 13px;
 }
+
+
