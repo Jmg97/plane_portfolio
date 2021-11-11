@@ -32,7 +32,7 @@ background-position-x: initial;
     background-color: initial;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 125vh;
+    height: 150vh;
 }
 
 
@@ -52,4 +52,7 @@ background-position-x: initial;
 .main-screen{
 padding:0px var(--horizontal-space);
 }
-
+.settings__setting:hover{
+    color: rgba(0,0,0,0.5);
+    transform: scale(0.9);
+}
